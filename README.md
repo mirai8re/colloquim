@@ -5,10 +5,10 @@ Develop the loading screen of game that has the same exact steps.
 However some of their implementations may vary: an example could be that while the code for creating and loading the various needed objects was entirely different in both cases. The code behind the deleting and the cleaning of temporary files was almost identical.
 
 Solving:
-1.break down  algorithm into a series of steps or methods
-2.put a series of calls to these methods or steps inside a single template method
-3.he steps may either be abstract or havesome default implementationinside the parent class
-4.now to use the algorithm defined by the series of steps
+1.break down  algorithm into a series of steps or methods;
+2.put a series of calls to these methods or steps inside a single template method;
+3.he steps may either be abstract or havesome default implementationinside the parent class;
+4.now to use the algorithm defined by the series of steps;
 
 The client must provide its own subclass.
 Implement all abstract steps and if need be overwrite some of the optional ones but
